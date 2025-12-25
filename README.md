@@ -1,70 +1,51 @@
-# **Symbolic Epistemic Compression (SEC)**
-### Repository v0.0.1 — Early Research Draft
+---
+title: "Glyphtrace — Repository Overview"
+version: "0.0.1"
+status: "Active"
+created: "2025-12-25"
+updated: "2025-12-25"
+type: "documentation"
+author: "Waveframe Labs"
+license: "Apache-2.0"
+ai_assisted: "partial"
+ai_assistance_details: "Draft structure and metadata generated with AI assistance; reviewed and approved by human maintainer."
+doi: "pending"
+---
+
+# Glyphtrace
 
 [![Waveframe Labs](https://img.shields.io/badge/WAVEFRAME%20LABS-Institutional%20Repository-FF6A00?style=flat)](https://waveframelabs.org)
 [![Governed Repository](https://img.shields.io/badge/Governance-ARI%20Compliant-8A2BE2?style=flat)](https://github.com/Waveframe-Labs/Aurora-Research-Initiative)
-[![DOI](https://zenodo.org/badge/DOI/INSERT_CONCEPT_DOI_HERE.svg)](https://doi.org/INSERT_CONCEPT_DOI_HERE)
+[![DOI](https://img.shields.io/badge/DOI-PENDING-lightgrey.svg)](https://doi.org/placeholder)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--6043--9295-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0006-6043-9295)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
 ---
 
-## Overview
+## Purpose
 
-**Symbolic Epistemic Compression (SEC)** is a research effort to develop an open standard for 
-compressing complex knowledge artifacts — scientific models, proofs, workflows, reasoning chains — 
-into compact symbolic representations **that remain reconstructible, auditable, and expandable**.
+**Glyphtrace** is a symbolic epistemic compression framework designed to encode complex knowledge,
+claims, research artifacts, or workflows into **compact, reconstructable traces**.
 
-Think *semantic compression for knowledge itself*, designed for a world where AI and humans both 
-consume, expand, and verify ideas.
-
-Scope right now (v0.0.x):
-- foundational theory
-- SEC notation exploration
-- grammar + symbolic rules
-- early examples + reconstruction tests
-
-No tooling yet. No converters. Standard first.
-
----
-
-## Repository Layout
-```  
-Waveframe-SEC/
-├── README.md ← you are here
-├── SPEC_DRAFT.md ← first grammar + format scaffold
-├── concept_overview.md ← conceptual document (expands README)
-├── examples/
-│ └── example_trace_SEC.md
-├── docs/
-│ └── roadmap.md ← development progression
-└── .gitignore
-```
+This repository serves as the **home specification, documentation, and reference implementation**
+of the Glyphtrace standard.
 
 ---
 
 ## Status
 
-| Phase | State |
-|---|---|
-| Concept definition | ✔ Started |
-| Draft notation | ☐ In progress |
-| Example traces | ☐ Next step |
-| SEC Grammar Spec v0.1 | ☐ Not started |
-| Tooling + converter | ☐ Future |
-| Formal integration into Waveframe | ☐ Future |
+`v0.0.1` — Initial scaffolding  
+Repository is in **early conceptual development**. Contents subject to structural evolution.
 
 ---
 
-## Vision
+## Roadmap
 
-SEC aims to become a **universal epistemic shorthand** enabling:
-- reproducibility keys
-- condensed publication references
-- symbolic research fingerprints
-- AI-expandable reasoning records
-
-Long term: SEC functions like **semantic SHA256** for ideas.
+- [ ] Establish core concept documentation (`/docs/`)
+- [ ] Create trace grammar & symbolic schema
+- [ ] Define example trace patterns (`/examples/`)
+- [ ] Introduce converter concept prototype
+- [ ] Governance alignment check for future standardization
 
 ---
 
