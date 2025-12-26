@@ -3,21 +3,24 @@ message: "If you use this software or concept, please cite it as below."
 title: "Glyphtrace v0.0.1 — Semantic Epistemic Compression for Research Traceability"
 version: "0.0.1"
 date-released: "2025-12-25"
+
 authors:
   - family-names: "Wright"
     given-names: "Shawn C."
     orcid: "https://orcid.org/0009-0006-6043-9295"
+
 abstract: |
   Glyphtrace is a symbolic epistemic compression framework designed for encoding research artifacts,
   claims, workflows, and reasoning structures into compact symbolic traces that can be expanded,
   reconstructed, or audited by human or AI systems. Unlike traditional data compression, Glyphtrace
   condenses meaning rather than bytes — preserving the minimal semantic information required to
   regenerate a scientific artifact with provenance and logical structure intact. This enables
-  reproducibility, long‑horizon verifiability, low‑bandwidth referencing, and machine‑interpretable
+  reproducibility, long-horizon verifiability, low-bandwidth referencing, and machine-interpretable
   epistemic lineage across research ecosystems. Glyphtrace is developed under Waveframe Labs as an
   open research standard governed by the Aurora Research Initiative. It is currently exploratory
-  and pre‑standardization, serving as a conceptual foundation for future tooling, converters, and
-  provenance‑aware workflows.
+  and pre-standardization, serving as a conceptual foundation for future tooling, converters, and
+  provenance-aware workflows.
+
 keywords:
   - epistemic compression
   - symbolic knowledge encoding
@@ -26,6 +29,16 @@ keywords:
   - traceability
   - research governance
   - AI-assisted reconstruction
+
 license: "Apache-2.0"
 url: "https://github.com/Waveframe-Labs/Glyphtrace"
-doi: "TBD - concept DOI pending issuance"
+
+# --- DOI References ---
+# Version DOI (v0.0.1 release)
+doi: "10.5281/zenodo.18057687"
+
+# Concept DOI for all versions (recommended for long-term citation)
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.18057686"
+    description: "Concept DOI representing all versions of Glyphtrace"
